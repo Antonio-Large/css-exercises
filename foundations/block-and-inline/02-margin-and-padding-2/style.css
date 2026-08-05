@@ -5,34 +5,38 @@ body {
 
 .card {
   display: block;
-  width: 425px;
+  width: 400px;
   background: white;
   margin: 16px auto;
-  padding: 1px;
-  padding-top: 13px;
+  padding: 8px;
 }
 
 .title,
 .content,
 .button-container {
   background: dodgerblue;
+}
+
+.title {
+  margin-bottom: 8px;
   font-size: 16px;
   padding: 8px;
-  margin: 7px;
 }
 
 .content {
-  padding: 15px 7px;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
   text-align: center;
+  padding: 8px;
 }
 
+
 button {
-  width: 150px;
-  background: white;
   display: block;
   margin: 0 auto;
-  padding: 7px;
+  padding: 8px 24px;
+  background: white;
 }
