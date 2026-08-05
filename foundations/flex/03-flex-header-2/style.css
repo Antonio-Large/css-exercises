@@ -9,12 +9,36 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center; /* nix this */
+  justify-content: space-between;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
+.left-items,
+.right-items {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  /* flex-grow: 1; nix this */
+}
+
+.links {
+  display: flex;
+  gap: 8px; /* 16px */
+  padding: 0;
+  /* margin: 0; */
+}
+
+.right-items {
+  justify-content: flex-end;
+}
+
 .profile-image {
+  flex: 0 0 auto;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
